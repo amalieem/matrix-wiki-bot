@@ -1,0 +1,29 @@
+{
+  "name": "matrix-wiki-bot",
+  "version": "1.0.0",
+  "description": "TypeScript Matrix bot that searches Wikipedia and sends a random daily article",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch '*.ts' --exec 'ts-node index.ts'",
+    "build": "tsc index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amalieem/matrix-wiki-bot.git"
+  },
+  "author": "amalie.mansaker@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amalieem/matrix-wiki-bot/issues"
+  },
+  "homepage": "https://github.com/amalieem/matrix-wiki-bot#readme",
+  "dependencies": {
+    "matrix-bot-sdk": "^0.6.6",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1"
+  }
+}
