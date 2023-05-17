@@ -1,3 +1,6 @@
+# Project specific
+/bot.json
+
 # Logs
 logs
 *.log
